@@ -8,8 +8,7 @@ using System.Windows.Forms;
 
 namespace Random_Projectiles_V2 {
     internal class MelonMod_Main : MelonMod {
-        internal static readonly URandom __randomInstance = new URandom();
-        internal static readonly Controller __instance__ = new Controller();
+        internal static Controller __instance__ = new Controller();
 
         public override void OnApplicationStart() {
             MelonLogger.Msg("Random Projectiles Loaded!");

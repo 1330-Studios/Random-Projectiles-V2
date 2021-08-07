@@ -353,7 +353,4 @@
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)$(TargetFileName)" "Z:\Program Files (x86)\Steam\steamapps\common\BloonsTD6\Mods\$(TargetFileName)" /y &gt;NUL</PostBuildEvent>
-  </PropertyGroup>
 </Project>
